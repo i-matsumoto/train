@@ -12,7 +12,7 @@ $('#saveEmployee').click(function() {
 		$('.error').append('<div>名前は必須じゃない入力です。</div>');
 	}
 	if ($('#empId').val() === '') {
-		$('.error').append('<div>社員IDは必須入力です。</div>');
+		$('.error').append('<div>社員IDは必須入力でーーーーーーーす。</div>');
 	}
 	if ($('#empId').val() === '') {
 		$('.error').append('<div>社員IDは必須入力です。</div>');
