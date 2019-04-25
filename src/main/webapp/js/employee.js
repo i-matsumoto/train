@@ -9,7 +9,7 @@ initPage();
 $('#saveEmployee').click(function() {
 	$('.error').children().remove();
 	if ($('#name').val() === '') {
-		$('.error').append('<div>名前は必須入力です。</div>');
+		$('.error').append('<div>名前は必須じゃない入力です。</div>');
 	}
 	if ($('#empId').val() === '') {
 		$('.error').append('<div>社員IDは必須入力です。</div>');
